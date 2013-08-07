@@ -53,6 +53,10 @@
 		<property name="jpaPropertyMap">
 			<map>
 				<entry key="eclipselink.weaving" value="false" />
+				<entry key="eclipselink.logging.level" value="WARNING" />
+				<entry key="eclipselink.logging.timestamp" value="false" />
+				<entry key="eclipselink.logging.session" value="false" />
+				<entry key="eclipselink.logging.thread" value="false" />
 			</map>
 		</property>
 		<property name="loadTimeWeaver">
