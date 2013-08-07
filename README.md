@@ -45,7 +45,7 @@ Eclipse 4.3
 ----------------
 spring-data-jpa 1.3.4  
 spring-orm 3.2.3  
-eclipselink 2.4.2  
+eclipselink 2.5.0  
 slf4j 1.7.5  
 logback 1.0.13  
   
