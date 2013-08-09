@@ -33,9 +33,15 @@
 		<property name="url" value="${db.url}" />
 		<property name="username" value="${db.username}" />
 		<property name="password" value="${db.password}" />
-		<property name="removeAbandoned" value="true" />
-		<property name="initialSize" value="5" />
-		<property name="maxActive" value="10" />
+		<property name="defaultAutoCommit" value="${db.defaultAutoCommit}" />
+		<property name="initialSize" value="${db.initialSize}" />
+		<property name="maxActive" value="${db.maxActive}" />
+		<property name="maxIdle" value="${db.maxIdle}" />
+		<property name="maxWait" value="${db.maxWait}" />
+		<property name="validationQuery" value="${db.validationQuery}" />
+		<property name="timeBetweenEvictionRunsMillis" value="${db.timeBetweenEvictionRunsMillis}" />
+		<property name="poolPreparedStatements" value="${db.poolPreparedStatements}" />
+		<property name="maxOpenPreparedStatements" value="${db.maxOpenPreparedStatements}" />
 	</bean>
 
 	<jpa:repositories base-package="com.heki1224.spring_data_jpa_sample.repositories" />
