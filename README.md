@@ -54,3 +54,7 @@ logback 1.0.13
 http://static.springsource.org/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/  
 http://www.eclipse.org/eclipselink/documentation/2.4/  
 http://stackoverflow.com/questions/10769051/eclipselinkjpavendoradapter-instead-of-hibernatejpavendoradapter-issue  
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/heki1224/spring-data-jpa-sample/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
